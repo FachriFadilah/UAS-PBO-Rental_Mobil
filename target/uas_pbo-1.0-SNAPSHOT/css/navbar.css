@@ -1,0 +1,22 @@
+/* NAVBAR ACTIVE */
+.nav-link {
+    position: relative;
+    padding-bottom: 4px;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active {
+    color: #4f46e5; /* indigo-600 */
+    font-weight: 600;
+}
+
+.nav-link.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background-color: #4f46e5;
+    border-radius: 2px;
+}
