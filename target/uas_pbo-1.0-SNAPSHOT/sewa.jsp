@@ -66,7 +66,7 @@
         </div>
 
         <div class="form-group">
-            <label>Tanggal Sewa</label>
+            <label>Tanggal Sewo</label>
             <input type="date" name="tanggal" required>
         </div>
 
